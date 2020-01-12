@@ -254,407 +254,132 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &1127498531
+--- !u!1001 &6249023376918553993
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 9188281407285701338, guid: beb96deb734616640b216feddb76106f,
+    - target: {fileID: 2971154081431916439, guid: beb96deb734616640b216feddb76106f,
+        type: 3}
+      propertyPath: onTriggerChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 965841910}
+    - target: {fileID: 2971154081431916439, guid: beb96deb734616640b216feddb76106f,
+        type: 3}
+      propertyPath: onTouchpadTouch.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 965841910}
+    - target: {fileID: 2971154081431916439, guid: beb96deb734616640b216feddb76106f,
+        type: 3}
+      propertyPath: onTouchpadClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 965841910}
+    - target: {fileID: 2971154081431916439, guid: beb96deb734616640b216feddb76106f,
+        type: 3}
+      propertyPath: onTouchpadValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 965841910}
+    - target: {fileID: 2971154081431916439, guid: beb96deb734616640b216feddb76106f,
+        type: 3}
+      propertyPath: onMenuClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 965841910}
+    - target: {fileID: 2971154081431916439, guid: beb96deb734616640b216feddb76106f,
+        type: 3}
+      propertyPath: onGripClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 965841910}
+    - target: {fileID: 2971154082509933680, guid: beb96deb734616640b216feddb76106f,
         type: 3}
       propertyPath: m_Name
       value: XR Rig
       objectReference: {fileID: 0}
-    - target: {fileID: 9188281407285701340, guid: beb96deb734616640b216feddb76106f,
+    - target: {fileID: 2971154082509933686, guid: beb96deb734616640b216feddb76106f,
         type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 9188281407285701340, guid: beb96deb734616640b216feddb76106f,
+    - target: {fileID: 2971154082509933686, guid: beb96deb734616640b216feddb76106f,
         type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 9188281407285701340, guid: beb96deb734616640b216feddb76106f,
+    - target: {fileID: 2971154082509933686, guid: beb96deb734616640b216feddb76106f,
         type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 9188281407285701340, guid: beb96deb734616640b216feddb76106f,
+    - target: {fileID: 2971154082509933686, guid: beb96deb734616640b216feddb76106f,
         type: 3}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 9188281407285701340, guid: beb96deb734616640b216feddb76106f,
+    - target: {fileID: 2971154082509933686, guid: beb96deb734616640b216feddb76106f,
         type: 3}
       propertyPath: m_LocalRotation.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 9188281407285701340, guid: beb96deb734616640b216feddb76106f,
+    - target: {fileID: 2971154082509933686, guid: beb96deb734616640b216feddb76106f,
         type: 3}
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 9188281407285701340, guid: beb96deb734616640b216feddb76106f,
+    - target: {fileID: 2971154082509933686, guid: beb96deb734616640b216feddb76106f,
         type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 9188281407285701340, guid: beb96deb734616640b216feddb76106f,
+    - target: {fileID: 2971154082509933686, guid: beb96deb734616640b216feddb76106f,
         type: 3}
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 9188281407285701340, guid: beb96deb734616640b216feddb76106f,
+    - target: {fileID: 2971154082509933686, guid: beb96deb734616640b216feddb76106f,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 9188281407285701340, guid: beb96deb734616640b216feddb76106f,
+    - target: {fileID: 2971154082509933686, guid: beb96deb734616640b216feddb76106f,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 9188281407285701340, guid: beb96deb734616640b216feddb76106f,
+    - target: {fileID: 2971154082509933686, guid: beb96deb734616640b216feddb76106f,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 9188281407559802365, guid: beb96deb734616640b216feddb76106f,
-        type: 3}
-      propertyPath: onTriggerChanged.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 9188281407559802365, guid: beb96deb734616640b216feddb76106f,
-        type: 3}
-      propertyPath: onTouchpadTouch.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 9188281407559802365, guid: beb96deb734616640b216feddb76106f,
-        type: 3}
-      propertyPath: onTouchpadClick.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 9188281407559802365, guid: beb96deb734616640b216feddb76106f,
-        type: 3}
-      propertyPath: onTouchpadValueChanged.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 9188281407559802365, guid: beb96deb734616640b216feddb76106f,
-        type: 3}
-      propertyPath: onMenuClick.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 9188281407559802365, guid: beb96deb734616640b216feddb76106f,
-        type: 3}
-      propertyPath: onGripClick.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 9188281407559802365, guid: beb96deb734616640b216feddb76106f,
-        type: 3}
-      propertyPath: deviceType
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 9188281407559802365, guid: beb96deb734616640b216feddb76106f,
+    - target: {fileID: 2971154082771663703, guid: beb96deb734616640b216feddb76106f,
         type: 3}
       propertyPath: onTriggerChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 965841910}
-    - target: {fileID: 9188281407559802365, guid: beb96deb734616640b216feddb76106f,
-        type: 3}
-      propertyPath: onTriggerChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: DebugLogFloat
-      objectReference: {fileID: 0}
-    - target: {fileID: 9188281407559802365, guid: beb96deb734616640b216feddb76106f,
-        type: 3}
-      propertyPath: onTriggerChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
-    - target: {fileID: 9188281407559802365, guid: beb96deb734616640b216feddb76106f,
-        type: 3}
-      propertyPath: onTriggerChanged.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 9188281407559802365, guid: beb96deb734616640b216feddb76106f,
+    - target: {fileID: 2971154082771663703, guid: beb96deb734616640b216feddb76106f,
         type: 3}
       propertyPath: onTouchpadTouch.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 965841910}
-    - target: {fileID: 9188281407559802365, guid: beb96deb734616640b216feddb76106f,
-        type: 3}
-      propertyPath: onTouchpadTouch.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: DebugLogBool
-      objectReference: {fileID: 0}
-    - target: {fileID: 9188281407559802365, guid: beb96deb734616640b216feddb76106f,
-        type: 3}
-      propertyPath: onTouchpadTouch.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
-    - target: {fileID: 9188281407559802365, guid: beb96deb734616640b216feddb76106f,
-        type: 3}
-      propertyPath: onTouchpadTouch.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 9188281407559802365, guid: beb96deb734616640b216feddb76106f,
+    - target: {fileID: 2971154082771663703, guid: beb96deb734616640b216feddb76106f,
         type: 3}
       propertyPath: onTouchpadClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 965841910}
-    - target: {fileID: 9188281407559802365, guid: beb96deb734616640b216feddb76106f,
-        type: 3}
-      propertyPath: onTouchpadClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: DebugLogBool
-      objectReference: {fileID: 0}
-    - target: {fileID: 9188281407559802365, guid: beb96deb734616640b216feddb76106f,
-        type: 3}
-      propertyPath: onTouchpadClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
-    - target: {fileID: 9188281407559802365, guid: beb96deb734616640b216feddb76106f,
-        type: 3}
-      propertyPath: onTouchpadClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 9188281407559802365, guid: beb96deb734616640b216feddb76106f,
+    - target: {fileID: 2971154082771663703, guid: beb96deb734616640b216feddb76106f,
         type: 3}
       propertyPath: onTouchpadValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 965841910}
-    - target: {fileID: 9188281407559802365, guid: beb96deb734616640b216feddb76106f,
-        type: 3}
-      propertyPath: onTouchpadValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: DebugLogVector2
-      objectReference: {fileID: 0}
-    - target: {fileID: 9188281407559802365, guid: beb96deb734616640b216feddb76106f,
-        type: 3}
-      propertyPath: onTouchpadValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
-    - target: {fileID: 9188281407559802365, guid: beb96deb734616640b216feddb76106f,
-        type: 3}
-      propertyPath: onTouchpadValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 9188281407559802365, guid: beb96deb734616640b216feddb76106f,
+    - target: {fileID: 2971154082771663703, guid: beb96deb734616640b216feddb76106f,
         type: 3}
       propertyPath: onMenuClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 965841910}
-    - target: {fileID: 9188281407559802365, guid: beb96deb734616640b216feddb76106f,
-        type: 3}
-      propertyPath: onMenuClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: DebugLogBool
-      objectReference: {fileID: 0}
-    - target: {fileID: 9188281407559802365, guid: beb96deb734616640b216feddb76106f,
-        type: 3}
-      propertyPath: onMenuClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
-    - target: {fileID: 9188281407559802365, guid: beb96deb734616640b216feddb76106f,
-        type: 3}
-      propertyPath: onMenuClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 9188281407559802365, guid: beb96deb734616640b216feddb76106f,
+    - target: {fileID: 2971154082771663703, guid: beb96deb734616640b216feddb76106f,
         type: 3}
       propertyPath: onGripClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 965841910}
-    - target: {fileID: 9188281407559802365, guid: beb96deb734616640b216feddb76106f,
-        type: 3}
-      propertyPath: onGripClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: DebugLogBool
-      objectReference: {fileID: 0}
-    - target: {fileID: 9188281407559802365, guid: beb96deb734616640b216feddb76106f,
-        type: 3}
-      propertyPath: onGripClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
-    - target: {fileID: 9188281407559802365, guid: beb96deb734616640b216feddb76106f,
-        type: 3}
-      propertyPath: onGripClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 9188281408363194685, guid: beb96deb734616640b216feddb76106f,
-        type: 3}
-      propertyPath: onTriggerChanged.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 9188281408363194685, guid: beb96deb734616640b216feddb76106f,
-        type: 3}
-      propertyPath: onTouchpadTouch.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 9188281408363194685, guid: beb96deb734616640b216feddb76106f,
-        type: 3}
-      propertyPath: onTouchpadClick.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 9188281408363194685, guid: beb96deb734616640b216feddb76106f,
-        type: 3}
-      propertyPath: onMenuClick.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 9188281408363194685, guid: beb96deb734616640b216feddb76106f,
-        type: 3}
-      propertyPath: onTouchpadValueChanged.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 9188281408363194685, guid: beb96deb734616640b216feddb76106f,
-        type: 3}
-      propertyPath: onGripClick.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 9188281408363194685, guid: beb96deb734616640b216feddb76106f,
-        type: 3}
-      propertyPath: onTriggerChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9188281408363194685, guid: beb96deb734616640b216feddb76106f,
-        type: 3}
-      propertyPath: onTriggerChanged.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 9188281408363194685, guid: beb96deb734616640b216feddb76106f,
-        type: 3}
-      propertyPath: onTriggerChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 965841910}
-    - target: {fileID: 9188281408363194685, guid: beb96deb734616640b216feddb76106f,
-        type: 3}
-      propertyPath: onTriggerChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: DebugLogFloat
-      objectReference: {fileID: 0}
-    - target: {fileID: 9188281408363194685, guid: beb96deb734616640b216feddb76106f,
-        type: 3}
-      propertyPath: onTriggerChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
-    - target: {fileID: 9188281408363194685, guid: beb96deb734616640b216feddb76106f,
-        type: 3}
-      propertyPath: onTouchpadTouch.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9188281408363194685, guid: beb96deb734616640b216feddb76106f,
-        type: 3}
-      propertyPath: onTouchpadTouch.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 9188281408363194685, guid: beb96deb734616640b216feddb76106f,
-        type: 3}
-      propertyPath: onTouchpadClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9188281408363194685, guid: beb96deb734616640b216feddb76106f,
-        type: 3}
-      propertyPath: onTouchpadClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 9188281408363194685, guid: beb96deb734616640b216feddb76106f,
-        type: 3}
-      propertyPath: onMenuClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9188281408363194685, guid: beb96deb734616640b216feddb76106f,
-        type: 3}
-      propertyPath: onMenuClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 9188281408363194685, guid: beb96deb734616640b216feddb76106f,
-        type: 3}
-      propertyPath: onTouchpadValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9188281408363194685, guid: beb96deb734616640b216feddb76106f,
-        type: 3}
-      propertyPath: onTouchpadValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 9188281408363194685, guid: beb96deb734616640b216feddb76106f,
-        type: 3}
-      propertyPath: onGripClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9188281408363194685, guid: beb96deb734616640b216feddb76106f,
-        type: 3}
-      propertyPath: onGripClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 9188281408363194685, guid: beb96deb734616640b216feddb76106f,
-        type: 3}
-      propertyPath: onTouchpadTouch.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 965841910}
-    - target: {fileID: 9188281408363194685, guid: beb96deb734616640b216feddb76106f,
-        type: 3}
-      propertyPath: onTouchpadClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 965841910}
-    - target: {fileID: 9188281408363194685, guid: beb96deb734616640b216feddb76106f,
-        type: 3}
-      propertyPath: onTouchpadValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 965841910}
-    - target: {fileID: 9188281408363194685, guid: beb96deb734616640b216feddb76106f,
-        type: 3}
-      propertyPath: onMenuClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 965841910}
-    - target: {fileID: 9188281408363194685, guid: beb96deb734616640b216feddb76106f,
-        type: 3}
-      propertyPath: onGripClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 965841910}
-    - target: {fileID: 9188281408363194685, guid: beb96deb734616640b216feddb76106f,
-        type: 3}
-      propertyPath: onTouchpadTouch.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: DebugLogBool
-      objectReference: {fileID: 0}
-    - target: {fileID: 9188281408363194685, guid: beb96deb734616640b216feddb76106f,
-        type: 3}
-      propertyPath: onTouchpadTouch.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
-    - target: {fileID: 9188281408363194685, guid: beb96deb734616640b216feddb76106f,
-        type: 3}
-      propertyPath: onTouchpadClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: DebugLogBool
-      objectReference: {fileID: 0}
-    - target: {fileID: 9188281408363194685, guid: beb96deb734616640b216feddb76106f,
-        type: 3}
-      propertyPath: onTouchpadClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
-    - target: {fileID: 9188281408363194685, guid: beb96deb734616640b216feddb76106f,
-        type: 3}
-      propertyPath: onTouchpadValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: DebugLogVector2
-      objectReference: {fileID: 0}
-    - target: {fileID: 9188281408363194685, guid: beb96deb734616640b216feddb76106f,
-        type: 3}
-      propertyPath: onTouchpadValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
-    - target: {fileID: 9188281408363194685, guid: beb96deb734616640b216feddb76106f,
-        type: 3}
-      propertyPath: onMenuClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: DebugLogBool
-      objectReference: {fileID: 0}
-    - target: {fileID: 9188281408363194685, guid: beb96deb734616640b216feddb76106f,
-        type: 3}
-      propertyPath: onMenuClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
-    - target: {fileID: 9188281408363194685, guid: beb96deb734616640b216feddb76106f,
-        type: 3}
-      propertyPath: onGripClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: DebugLogBool
-      objectReference: {fileID: 0}
-    - target: {fileID: 9188281408363194685, guid: beb96deb734616640b216feddb76106f,
-        type: 3}
-      propertyPath: onGripClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: beb96deb734616640b216feddb76106f, type: 3}
