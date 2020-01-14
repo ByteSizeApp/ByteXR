@@ -136,7 +136,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa073e40a465a004b90627184d6fa65b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deviceType: 3
+  deviceType: 4
   onTriggerChanged:
     m_PersistentCalls:
       m_Calls:

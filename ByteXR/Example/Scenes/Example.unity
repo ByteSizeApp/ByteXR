@@ -252,9 +252,9 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &6249023376918553993
+--- !u!1001 &1196726600
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -268,9 +268,19 @@ PrefabInstance:
       objectReference: {fileID: 965841910}
     - target: {fileID: 2971154081431916439, guid: beb96deb734616640b216feddb76106f,
         type: 3}
+      propertyPath: onTriggerChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: DebugLogFloat
+      objectReference: {fileID: 0}
+    - target: {fileID: 2971154081431916439, guid: beb96deb734616640b216feddb76106f,
+        type: 3}
       propertyPath: onTouchpadTouch.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 965841910}
+    - target: {fileID: 2971154081431916439, guid: beb96deb734616640b216feddb76106f,
+        type: 3}
+      propertyPath: onTouchpadTouch.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: DebugLogBool
+      objectReference: {fileID: 0}
     - target: {fileID: 2971154081431916439, guid: beb96deb734616640b216feddb76106f,
         type: 3}
       propertyPath: onTouchpadClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -278,9 +288,19 @@ PrefabInstance:
       objectReference: {fileID: 965841910}
     - target: {fileID: 2971154081431916439, guid: beb96deb734616640b216feddb76106f,
         type: 3}
+      propertyPath: onTouchpadClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: DebugLogBool
+      objectReference: {fileID: 0}
+    - target: {fileID: 2971154081431916439, guid: beb96deb734616640b216feddb76106f,
+        type: 3}
       propertyPath: onTouchpadValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 965841910}
+    - target: {fileID: 2971154081431916439, guid: beb96deb734616640b216feddb76106f,
+        type: 3}
+      propertyPath: onTouchpadValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: DebugLogVector2
+      objectReference: {fileID: 0}
     - target: {fileID: 2971154081431916439, guid: beb96deb734616640b216feddb76106f,
         type: 3}
       propertyPath: onMenuClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -288,9 +308,19 @@ PrefabInstance:
       objectReference: {fileID: 965841910}
     - target: {fileID: 2971154081431916439, guid: beb96deb734616640b216feddb76106f,
         type: 3}
+      propertyPath: onMenuClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: DebugLogBool
+      objectReference: {fileID: 0}
+    - target: {fileID: 2971154081431916439, guid: beb96deb734616640b216feddb76106f,
+        type: 3}
       propertyPath: onGripClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 965841910}
+    - target: {fileID: 2971154081431916439, guid: beb96deb734616640b216feddb76106f,
+        type: 3}
+      propertyPath: onGripClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: DebugLogBool
+      objectReference: {fileID: 0}
     - target: {fileID: 2971154082509933680, guid: beb96deb734616640b216feddb76106f,
         type: 3}
       propertyPath: m_Name
@@ -334,7 +364,7 @@ PrefabInstance:
     - target: {fileID: 2971154082509933686, guid: beb96deb734616640b216feddb76106f,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2971154082509933686, guid: beb96deb734616640b216feddb76106f,
         type: 3}
@@ -351,6 +381,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2971154082509933686, guid: beb96deb734616640b216feddb76106f,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2971154082509933686, guid: beb96deb734616640b216feddb76106f,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2971154082771663703, guid: beb96deb734616640b216feddb76106f,
         type: 3}
       propertyPath: onTriggerChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -358,9 +398,19 @@ PrefabInstance:
       objectReference: {fileID: 965841910}
     - target: {fileID: 2971154082771663703, guid: beb96deb734616640b216feddb76106f,
         type: 3}
+      propertyPath: onTriggerChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: DebugLogFloat
+      objectReference: {fileID: 0}
+    - target: {fileID: 2971154082771663703, guid: beb96deb734616640b216feddb76106f,
+        type: 3}
       propertyPath: onTouchpadTouch.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 965841910}
+    - target: {fileID: 2971154082771663703, guid: beb96deb734616640b216feddb76106f,
+        type: 3}
+      propertyPath: onTouchpadTouch.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: DebugLogBool
+      objectReference: {fileID: 0}
     - target: {fileID: 2971154082771663703, guid: beb96deb734616640b216feddb76106f,
         type: 3}
       propertyPath: onTouchpadClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -368,9 +418,19 @@ PrefabInstance:
       objectReference: {fileID: 965841910}
     - target: {fileID: 2971154082771663703, guid: beb96deb734616640b216feddb76106f,
         type: 3}
+      propertyPath: onTouchpadClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: DebugLogBool
+      objectReference: {fileID: 0}
+    - target: {fileID: 2971154082771663703, guid: beb96deb734616640b216feddb76106f,
+        type: 3}
       propertyPath: onTouchpadValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 965841910}
+    - target: {fileID: 2971154082771663703, guid: beb96deb734616640b216feddb76106f,
+        type: 3}
+      propertyPath: onTouchpadValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: DebugLogVector2
+      objectReference: {fileID: 0}
     - target: {fileID: 2971154082771663703, guid: beb96deb734616640b216feddb76106f,
         type: 3}
       propertyPath: onMenuClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -378,8 +438,18 @@ PrefabInstance:
       objectReference: {fileID: 965841910}
     - target: {fileID: 2971154082771663703, guid: beb96deb734616640b216feddb76106f,
         type: 3}
+      propertyPath: onMenuClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: DebugLogBool
+      objectReference: {fileID: 0}
+    - target: {fileID: 2971154082771663703, guid: beb96deb734616640b216feddb76106f,
+        type: 3}
       propertyPath: onGripClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 965841910}
+    - target: {fileID: 2971154082771663703, guid: beb96deb734616640b216feddb76106f,
+        type: 3}
+      propertyPath: onGripClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: DebugLogBool
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: beb96deb734616640b216feddb76106f, type: 3}
